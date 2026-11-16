@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 510" width="100%" role="img" aria-labelledby="t d">
+<title id="t">Scale</title>
+<desc id="d">2 companies. 43 person team at ceKapsys. 4 SaaS products in the ceKapsys portfolio. 4 apps delivered in Agile sprints at Dr. Lal PathLabs Bangladesh.</desc>
+<style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.s{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}</style>
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#122E1A"/></pattern><clipPath id="c"><rect width="840" height="510" rx="14"/></clipPath></defs>
+<g clip-path="url(#c)">
+<rect width="840" height="510" fill="#082212"/>
+<rect width="840" height="510" fill="url(#g)"/>
+<path d="M0 78.5H840" stroke="#37653A"/>
+<path d="M0 78H40V46H60" fill="none" stroke="#FFC52D" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="60" cy="46" r="7" fill="#082212" stroke="#FFC52D" stroke-width="2"/><circle cx="60" cy="46" r="2.5" fill="#FFC52D"/>
+<text x="80" y="55" class="m" font-size="25" fill="#FFC52D" font-weight="700" letter-spacing="1">04 / SCALE</text>
+<text x="150" y="181" class="s" font-size="60" fill="#FFC52D" font-weight="700" text-anchor="end">2</text>
+<text x="190" y="168" class="s" font-size="27" fill="#F7F4E6">companies</text>
+<path d="M40 208.5H800" stroke="#37653A"/>
+<text x="150" y="277" class="s" font-size="60" fill="#FFC52D" font-weight="700" text-anchor="end">43</text>
+<text x="190" y="264" class="s" font-size="27" fill="#F7F4E6">person team at ceKapsys</text>
+<path d="M40 304.5H800" stroke="#37653A"/>
+<text x="150" y="373" class="s" font-size="60" fill="#FFC52D" font-weight="700" text-anchor="end">4</text>
+<text x="190" y="360" class="s" font-size="27" fill="#F7F4E6">SaaS products in the ceKapsys portfolio</text>
+<path d="M40 400.5H800" stroke="#37653A"/>
+<text x="150" y="469" class="s" font-size="60" fill="#FFC52D" font-weight="700" text-anchor="end">4</text>
+<text x="190" y="437" class="s" font-size="27" fill="#F7F4E6">apps delivered in Agile sprints at Dr. Lal</text>
+<text x="190" y="475" class="s" font-size="27" fill="#F7F4E6">PathLabs Bangladesh</text>
+</g>
+<rect x="0.5" y="0.5" width="839" height="509" rx="14" fill="none" stroke="#37653A"/>
+</svg>

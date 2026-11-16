@@ -1,0 +1,174 @@
+{
+  "person": {
+    "name": "Emamul Haque",
+    "short": "EMON",
+    "handle": "empidonax",
+    "tagline": "Technology entrepreneur and product builder",
+    "location": "Dhaka, Bangladesh",
+    "positioning": "I run product at As-Safa Inc. and ceKapsys and ship the software behind both: a digital health platform, its AI engine and a portfolio of SaaS products."
+  },
+  "links": [
+    { "label": "Website", "url": "https://emamulhaquecs.com" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/emamulhaquecsq" },
+    { "label": "As-Safa", "url": "https://as-safa.com" },
+    { "label": "ceKapsys", "url": "https://cekapsys.com" },
+    { "label": "ceKapsys on GitHub", "url": "https://github.com/ceKapsys" }
+  ],
+  "statusStyles": {
+    "Live": "solid",
+    "In testing": "half",
+    "In build": "outline"
+  },
+  "inBuild": {
+    "label": "In build",
+    "items": ["As-Safa", "LIMA", "Plateforum"]
+  },
+  "builds": {
+    "asSafa": {
+      "name": "As-Safa",
+      "role": "Co-founder and CEO. I lead product.",
+      "status": "Live",
+      "description": "A unified digital health platform for Bangladesh: diagnostics, telemedicine, corporate wellness, preventive health, pharmacy and health commerce.",
+      "surfaces": [
+        { "name": "Patient app", "note": "Flutter" },
+        { "name": "DocDesk", "note": "doctor portal" },
+        { "name": "HealthDesk", "note": "corporate health" },
+        { "name": "HRMS", "note": "multi-tenant" }
+      ],
+      "architecture": {
+        "title": "PHI firewall",
+        "protected": "Clinical data",
+        "blocked": "HR",
+        "note": "Enforced at the database layer. Clinical data is never reachable from HR."
+      },
+      "stack": ["Next.js", "Flutter", "NestJS", "PostgreSQL", "Redis", "AWS", "LiveKit", "Stripe", "bKash", "SSLCommerz"]
+    },
+    "lima": {
+      "name": "LIMA",
+      "role": "As-Safa's AI engine.",
+      "status": "Live",
+      "capabilities": [
+        "Health conversation with specialty and doctor routing",
+        "Diagnostic report summaries",
+        "Prescription clinical review",
+        "AI scribe in video consultations"
+      ],
+      "stack": [
+        { "tech": "Python", "text": "Python / FastAPI" },
+        { "tech": "pgvector", "text": "Retrieval over a medical knowledge base with pgvector" },
+        { "tech": "OpenRouter", "text": "Open-weight models through OpenRouter" },
+        { "tech": "Whisper", "text": "Self-hosted Whisper for transcription" }
+      ]
+    },
+    "cekapsys": {
+      "name": "ceKapsys",
+      "role": "Managing partner.",
+      "description": "A software firm: cybersecurity, medico marketing, SaaS builds.",
+      "products": [
+        {
+          "name": "Plateforum",
+          "status": "In build",
+          "description": "Restaurant SaaS with QR menu, analytics, reviews, POS / KDS and payments.",
+          "stack": []
+        },
+        {
+          "name": "Griho",
+          "status": "In build",
+          "description": "Rental management PWA for flat owners, covering tenants, rent, invoices and WhatsApp reminders.",
+          "stack": []
+        },
+        {
+          "name": "Faand",
+          "status": "In build",
+          "description": "Bengali-first phishing simulation platform.",
+          "stack": ["NestJS", "Next.js"]
+        },
+        {
+          "name": "CardBridge",
+          "status": "In build",
+          "description": "Payment fulfilment platform.",
+          "stack": ["Next.js", "MySQL", "Prisma", "SSLCommerz"]
+        }
+      ]
+    },
+    "client": {
+      "name": "Client work",
+      "note": "Clients unnamed.",
+      "products": [
+        {
+          "name": "Repair shop platform",
+          "status": "In build",
+          "description": "Platform for a device repair shop.",
+          "stack": ["Next.js", "MongoDB Atlas"]
+        },
+        {
+          "name": "Jute mill export site",
+          "status": "In build",
+          "description": "Export website for a composite jute mill.",
+          "stack": ["WordPress"]
+        },
+        {
+          "name": "WordPress plugins",
+          "status": "In build",
+          "description": "Custom WordPress plugin development.",
+          "stack": ["WordPress"]
+        }
+      ]
+    }
+  },
+  "delivery": {
+    "stages": ["Discover", "Spec (SRD / PRD)", "Build", "QA on dev", "Release to production"],
+    "environments": { "from": "Dev", "to": "Production", "afterStage": 4 },
+    "tooling": [
+      { "role": "Planning", "tool": "ClickUp" },
+      { "role": "Source and review", "tool": "GitHub" },
+      { "role": "Build", "tool": "Claude Code" }
+    ],
+    "note": "Separate dev and production environments. Fixes land on dev first."
+  },
+  "scale": [
+    { "figure": "2", "label": "companies" },
+    { "figure": "43", "label": "person team at ceKapsys" },
+    { "figure": "4", "label": "SaaS products in the ceKapsys portfolio" },
+    { "figure": "4", "label": "apps delivered in Agile sprints at Dr. Lal PathLabs Bangladesh" }
+  ],
+  "stack": [
+    { "layer": "Web", "items": ["Next.js", "TypeScript"] },
+    { "layer": "Mobile", "items": ["Flutter"] },
+    { "layer": "API", "items": ["NestJS", "Python / FastAPI"] },
+    { "layer": "Data", "items": ["PostgreSQL", "pgvector", "Redis", "MongoDB", "MySQL / Prisma"] },
+    { "layer": "Cloud", "items": ["AWS EC2", "Amplify", "S3"] },
+    { "layer": "Realtime", "items": ["LiveKit"] },
+    { "layer": "Payments", "items": ["Stripe", "bKash", "SSLCommerz"] },
+    { "layer": "AI", "items": ["Open-weight LLMs via OpenRouter", "Self-hosted Whisper"] },
+    { "layer": "CMS", "items": ["WordPress plugin development"] }
+  ],
+  "icons": {
+    "Next.js": "nextdotjs",
+    "TypeScript": "typescript",
+    "Flutter": "flutter",
+    "NestJS": "nestjs",
+    "Python": "python",
+    "Python / FastAPI": "python",
+    "PostgreSQL": "postgresql",
+    "Redis": "redis",
+    "MongoDB": "mongodb",
+    "MongoDB Atlas": "mongodb",
+    "MySQL": "mysql",
+    "MySQL / Prisma": "mysql",
+    "Prisma": "prisma",
+    "LiveKit": "livekit",
+    "Stripe": "stripe",
+    "OpenRouter": "openrouter",
+    "Open-weight LLMs via OpenRouter": "openrouter",
+    "WordPress": "wordpress",
+    "WordPress plugin development": "wordpress",
+    "ClickUp": "clickup",
+    "GitHub": "github",
+    "Claude Code": "claude"
+  },
+  "footer": {
+    "research": "Research interests: health cybersecurity, Bangladesh healthtech, emerging-market product.",
+    "cta": { "label": "Book a call", "url": "https://emamulhaquecs.com", "display": "emamulhaquecs.com" }
+  }
+}
